@@ -1,0 +1,24 @@
+#first {
+   background-color: green;
+   display: inline-block;
+   border: 3px solid;
+   width: 100px;
+   height: 100px;
+}
+
+#second {
+    background-color: orange;
+    display: inline-block;
+    border: 3px solid;
+    width: 100px;
+    height: 100px;
+ }
+
+ .button {
+     background-color: green;
+ }
+
+ #container {
+     background-color: gray;
+     width: 300px;
+ }
