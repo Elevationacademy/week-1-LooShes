@@ -1,27 +1,25 @@
-let boughtTesla = true
+let boughtTesla = 'yes'
 const yearOfTeslaPurchase = 2014
-let isUSCitizen = true
+let isUSCitizen = 'yes'
 let currentYear = 2020
 let answer3
 let answer4
 
-console.log("are you US citizen?")
-let answer1 = prompt()
+let answer1 = prompt("are you US citizen?")
 
-console.log("has previously bought a Tesla?")
-let answer2 = prompt()
+let answer2 = prompt("have you previously bought a Tesla?")
 
 if(answer1 == 'yes' && answer2 == 'yes') {
-    console.log("how long ago did you bought a Tesla?")
-    answer3 = prompt()
+    answer3 = prompt("how long ago did you bought a Tesla?")
     if(currentYear - answer3 > 4) {
-        console.log("are you want to upgrade?")
-        answer4 = prompt()
+        answer4 = prompt("are you want to upgrade?")
     } else {
-        console.log("are you saticfied with the car?")
+        answer4 = prompt("are you saticfied with the car?")
     }
 } else if(answer2 == 'no' && answer1 == 'yes') {
-    console.log("are you want to move to the USA?")
-} else if(answer1 == 'no') {
-    console.log("are you want to buy Tesla")
+    answer4 = prompt("are you want to move to the USA?")
+} else if(answer2 == 'no') {
+    answer4 = prompt("are you want to buy Tesla")
+} else {
+    answer4 = prompt("are you want to upgrade?")
 }
