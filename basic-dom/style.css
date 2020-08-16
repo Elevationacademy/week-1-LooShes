@@ -72,3 +72,23 @@ body{
 .arrow:active{
     background-color: #7f8c8d
 }
+
+.sub-header{
+    color: #c0392b;
+    position: absolute;
+    top: 50px;
+    font-family: "Helvetica";
+    font-size: 18px;
+    text-align: center;
+}
+
+#box{
+    background-color: #1abc9c;
+    line-height:20px;
+    text-align:middle;
+    width: 150px;
+    padding: 20px;
+    position: absolute;
+    top: 100px;
+  }
+  
